@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { DefaultSlider, RangePanel } from "./client";
-import Iphone from "../public/iPhone 12 Pro.png";
-import MainPhone from "../public/mainPhoneScreen.png";
-import mapPhoto from "../public/AlgeriaMap.png";
+import Iphone from "../iPhone 12 Pro.png";
+import MainPhone from "../mainPhoneScreen.png";
+import mapPhoto from "../AlgeriaMap.png";
 import Link from "next/link";
 export default function Home() {
   return (
