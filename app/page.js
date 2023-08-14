@@ -4,6 +4,7 @@ import Iphone from "../public/iPhone 12 Pro.png";
 import MainPhone from "../public/mainPhoneScreen.png";
 import mapPhoto from "../public/algeriaMap.png";
 import Link from "next/link";
+// pardon ma vie
 export default function Home() {
   return (
     <main className="font-bold relative">
