@@ -226,7 +226,7 @@ export default function Home() {
             <h2 className="mb-4 text-lg">
               Become a Surveys Collector, Influence Change!
             </h2>
-            <p className="font-medium opacity-70 xl:text-lg mb-4">
+            <p className="font-medium opacity-90 xl:text-lg mb-4">
               Our commitment to innovation extends to our SURVISION App,
               designed for those who want to be part of shaping tomorrow's
               products and services. By downloading our app, you join a
