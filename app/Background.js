@@ -11,7 +11,7 @@ function Background() {
             left: ["-10%", "10%", "20%", "10%", "-10%", "-20%", "-10%"],
             rotate: [10, 5, 10, 0, 10, 20, 10],
           }}
-          transition={{ duration: 23, repeat: Infinity, repeatType: "reverse" }}
+          transition={{ duration: 15, repeat: Infinity, repeatType: "reverse" }}
           className="bg-lightBlue -z-30 w-[1500px] h-60 -left-10 top-[80%] rotate-[10deg] absolute"
         ></motion.div>
         <motion.div
@@ -37,7 +37,7 @@ function Background() {
               "250px",
             ],
           }}
-          transition={{ duration: 23 }}
+          transition={{ duration: 15 }}
           className="bg-lightPurple -z-20 w-[250px] h-[250px] rounded-full left-[70%] top-[50%] absolute"
         ></motion.div>
         <motion.div
@@ -46,7 +46,7 @@ function Background() {
             top: ["40%", "20%", "40%", "40%", "60%", "40%", "40%"],
             rotate: [10, 5, 10, 0, 10, 20, 10],
           }}
-          transition={{ duration: 23 }}
+          transition={{ duration: 15 }}
           className="bg-lighOrange w-[1500px] h-[30%] -left-10 rotate-[10deg] top-40 -z-40 absolute"
         ></motion.div>
         <div className="bg-darkOrange w-full h-full -z-50 absolute"></div>
