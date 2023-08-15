@@ -9,7 +9,7 @@ import Footer from "./Footer";
 // pardon ma vie
 export default function Home() {
   return (
-    <main className="font-bold relative -mt-2">
+    <main className="font-bold relative -mt-2 w-screen overflow-hidden">
       <div className="relative">
         <Background></Background>
         <div className=" hidden xl:block xl:absolute -right-12 top-4">
@@ -230,7 +230,6 @@ export default function Home() {
           ></Image>
         </div>
       </div>
-      <Footer></Footer>
     </main>
   );
 }

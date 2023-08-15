@@ -1,6 +1,7 @@
 import Image from "next/image";
 import "./globals.css";
 import Link from "next/link";
+import Footer from "./Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -10,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="  bg-backgroundWhite -z-20">
+      <body className="  bg-backgroundWhite -z-20 w-screen ">
         <div className="sticky top-0 w-screen z-30 py-4 px-8 xl:px-40 flex justify-between bg-darkOrange ">
           <span>
             <Link href="/">
@@ -42,6 +43,7 @@ export default function RootLayout({ children }) {
           </span>
         </div>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );
