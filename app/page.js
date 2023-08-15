@@ -1,70 +1,48 @@
 import Image from "next/image";
 import { DefaultSlider, RangePanel } from "./client";
-import Iphone from "../public/iPhone 12 Pro.png";
-import MainPhone from "../public/mainPhoneScreen.png";
+import Iphone from "../public/Iphone.png";
+import MainPhone from "../public/iPhone 12 Pro.png";
 import mapPhoto from "../public/algeriaMap.png";
 import Link from "next/link";
+import Background from "./Background";
 // pardon ma vie
 export default function Home() {
   return (
-    <main className="font-bold relative">
-      <div className=" z-30 py-4 px-8 xl:px-40 flex justify-between bg-darkOrange ">
-        <span>
-          <svg
-            width="155"
-            height="33"
-            viewBox="0 0 155 33"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M31.6072 17.1517C31.6166 16.936 31.6214 16.7186 31.6214 16.5001C31.6214 7.85791 24.5911 0.827637 15.9489 0.827637C8.3151 0.827637 1.93926 6.31274 0.555335 13.5493C0.372684 14.5048 0.276772 15.4917 0.276772 16.5001C0.276772 16.6224 0.277606 16.745 0.280664 16.8662L1.60065 17.1637L3.62204 17.6185L10.1844 19.0958L14.4493 20.0561L20.0409 21.3157L20.039 21.3177L26.6022 22.7958C26.5955 22.8061 26.5891 22.8175 26.5825 22.8278C24.4207 26.448 20.4635 28.877 15.9489 28.877C10.8008 28.877 6.37655 25.7183 4.51417 21.2368L0.766066 20.3933C2.50139 27.1581 8.65038 32.1725 15.9489 32.1725C22.0573 32.1725 27.3609 28.6596 29.9444 23.5484C30.4426 22.5654 30.8388 21.5231 31.1212 20.4358L27.9033 19.7108C27.9005 19.7222 27.8966 19.7344 27.8938 19.7455L25.1446 19.127H25.1438L21.9756 18.4133C21.9795 18.4019 21.9831 18.3897 21.987 18.3786C21.987 18.3786 21.9873 18.3779 21.9878 18.3766C21.9887 18.3719 21.9906 18.3683 21.9917 18.3636C22.1735 17.7742 22.2714 17.1489 22.2714 16.5003C22.2714 15.9863 22.2102 15.4873 22.0935 15.0091C21.4221 12.2401 18.9225 10.1773 15.9492 10.1773C12.766 10.1773 10.1249 12.5423 9.69096 15.6071C9.68901 15.6202 9.68707 15.6324 9.6854 15.6457L3.76605 14.3127C3.768 14.3005 3.77078 14.2874 3.77272 14.2752C4.82443 8.50845 9.88418 4.1237 15.9492 4.1237C22.7451 4.1237 28.2783 9.62771 28.3253 16.4122V16.4131L31.6075 17.152L31.6072 17.1517ZM12.9267 16.3363C12.9267 16.3316 12.9275 16.328 12.9275 16.3233C13.0095 14.9015 14.0763 13.7406 15.4535 13.5137H15.4543C15.6153 13.4865 15.7802 13.4723 15.9486 13.4723C16.5889 13.4723 17.1819 13.6727 17.6717 14.0127L17.6737 14.0136C18.4599 14.5607 18.9759 15.4709 18.9759 16.5001C18.9759 16.9012 18.8978 17.2843 18.7546 17.6346C18.7537 17.6385 18.7518 17.643 18.7499 17.6469C18.7499 17.6477 18.749 17.6488 18.749 17.6496C18.7443 17.661 18.7396 17.6713 18.7348 17.6827L15.1647 16.8787L12.9248 16.375C12.9256 16.3619 12.9256 16.3497 12.9267 16.3363Z"
-              fill="#FFF7F2"
-            />
-            <path
-              d="M52.5142 18.1196C52.5142 20.8443 50.4364 22.3733 47.4765 22.3733C45.3987 22.3733 43.3013 21.648 41.6547 20.1778L43.4385 18.0412C44.6734 19.0605 45.9672 19.7074 47.5353 19.7074C48.7702 19.7074 49.5151 19.2174 49.5151 18.4137V18.3745C49.5151 17.61 49.0447 17.218 46.7512 16.6299C43.9874 15.9242 42.2036 15.1597 42.2036 12.4351V12.3959C42.2036 9.90642 44.203 8.25986 47.0061 8.25986C49.0055 8.25986 50.7108 8.88712 52.1026 10.0044L50.5344 12.2783C49.3191 11.4354 48.1234 10.9257 46.9669 10.9257C45.8103 10.9257 45.2027 11.455 45.2027 12.1214V12.1606C45.2027 13.0623 45.7907 13.3564 48.1626 13.964C50.946 14.6893 52.5142 15.689 52.5142 18.0804V18.1196ZM66.8755 16.1987C66.8755 20.3543 64.5429 22.3929 60.8577 22.3929C57.1726 22.3929 54.9184 20.3347 54.9184 16.2967V8.45588H57.9371V16.2183C57.9371 18.4529 59.0544 19.6094 60.8969 19.6094C62.7395 19.6094 63.8568 18.4921 63.8568 16.3163V8.45588H66.8755V16.1987ZM81.8095 22.1772H78.2811L75.3408 17.7864H72.969V22.1772H69.9503V8.45588H76.2229C79.4572 8.45588 81.3978 10.1612 81.3978 12.9839V13.0231C81.3978 15.2382 80.2021 16.6299 78.4575 17.2768L81.8095 22.1772ZM78.3399 13.1799V13.1407C78.3399 11.847 77.4382 11.1806 75.9681 11.1806H72.969V15.1205H76.0269C77.497 15.1205 78.3399 14.3365 78.3399 13.1799ZM96.3174 8.45588L90.77 22.2753H88.1041L82.5568 8.45588H85.8891L89.4763 18.1196L93.0634 8.45588H96.3174ZM101.59 22.1772H98.5716V8.45588H101.59V22.1772ZM114.938 18.1196C114.938 20.8443 112.86 22.3733 109.9 22.3733C107.822 22.3733 105.725 21.648 104.079 20.1778L105.862 18.0412C107.097 19.0605 108.391 19.7074 109.959 19.7074C111.194 19.7074 111.939 19.2174 111.939 18.4137V18.3745C111.939 17.61 111.468 17.218 109.175 16.6299C106.411 15.9242 104.627 15.1597 104.627 12.4351V12.3959C104.627 9.90642 106.627 8.25986 109.43 8.25986C111.429 8.25986 113.135 8.88712 114.526 10.0044L112.958 12.2783C111.743 11.4354 110.547 10.9257 109.391 10.9257C108.234 10.9257 107.626 11.455 107.626 12.1214V12.1606C107.626 13.0623 108.215 13.3564 110.586 13.964C113.37 14.6893 114.938 15.689 114.938 18.0804V18.1196ZM120.714 22.1772H117.695V8.45588H120.714V22.1772ZM138.119 15.3166C138.119 19.2174 135.041 22.4125 130.807 22.4125C126.573 22.4125 123.535 19.2566 123.535 15.3558V15.3166C123.535 11.4158 126.613 8.22066 130.847 8.22066C135.081 8.22066 138.119 11.3766 138.119 15.2774V15.3166ZM134.963 15.3558V15.3166C134.963 12.9643 133.238 11.0041 130.807 11.0041C128.377 11.0041 126.691 12.9251 126.691 15.2774V15.3166C126.691 17.6688 128.416 19.629 130.847 19.629C133.277 19.629 134.963 17.708 134.963 15.3558ZM152.989 22.1772H150.421L143.776 13.4544V22.1772H140.797V8.45588H143.58L150.01 16.9043V8.45588H152.989V22.1772Z"
-              fill="#FFF7F2"
-            />
-          </svg>
-        </span>
-        <span>
-          {" "}
-          <button className="bg-backgroundWhite text-darkBlue  p-2 rounded-lg">
-            {" "}
-            Order Survey{" "}
-          </button>{" "}
-        </span>
-      </div>
+    <main className="font-bold relative -mt-2">
       <div className="relative">
-        <div className="w-full h-full absolute -z-10 overflow-hidden   ">
-          <div className="w-full h-full scale-[180%] relative blur-[50px]">
-            <div className="bg-lightBlue -z-30 w-[1500px] h-60 -left-10 top-[80%] rotate-[10deg] absolute"></div>
-            <div className="bg-lightPurple -z-20 w-[250px] h-[250px] rounded-full left-[70%] top-[50%] absolute"></div>
-            <div className="bg-lighOrange w-[1500px] h-[30%] -left-10 rotate-[10deg] top-40 -z-40 absolute"></div>
-            <div className="bg-darkOrange w-full h-full -z-50 absolute"></div>
-          </div>
-        </div>
-        <div className=" hidden xl:block xl:absolute right-36 top-4">
+        <Background></Background>
+        <div className=" hidden xl:block xl:absolute -right-12 top-4">
           <Image
             src={MainPhone}
-            alt="Picture of the app scree"
-            style={{ maxWidth: "100%" }}
+            alt="Picture of the app screen"
+            style={{ maxWidth: "60%" }}
+            quality={100}
           />
         </div>
-        <div
-          className=" w-full text-backgroundWhite
-      px-8 xl:px-40 py-16 "
-        >
-          <h3 className="font-thin text-lg lg:text-xl mb-4 max-w-2xl">
-            Explore. Understand. Innovate.
-          </h3>
-          <h1 className="font-bold text-5xl lg:text-6xl mb-4 max-w-2xl lg:leading-[106px]">
-            Unveiling the Future of Market Research
-          </h1>
-          <p className="opacity-90 max-w-2xl  lg:text-2xl font-medium">
-            Revolutionizing FMCG market research through cutting-edge technology
-            and community-driven insights.
-          </p>
+        <div className="px-8 xl:px-40 py-16 flex">
+          <div
+            className=" w-full text-backgroundWhite
+       "
+          >
+            <h3 className="font-thin text-lg lg:text-xl mb-4 max-w-2xl">
+              Explore. Understand. Innovate.
+            </h3>
+            <h1 className="font-bold text-5xl lg:text-6xl mb-4 max-w-2xl lg:leading-[106px]">
+              Unveiling the Future of Market Research
+            </h1>
+            <p className="opacity-90 max-w-2xl  lg:text-2xl font-medium">
+              Revolutionizing FMCG market research through cutting-edge
+              technology and community-driven insights.
+            </p>
+          </div>
+          <div className=" hidden xl:block opacity-0 xl:absolute right-36 top-4">
+            <Image
+              src={MainPhone}
+              alt="Picture of the app screen"
+              style={{ maxWidth: "60%" }}
+              quality={100}
+            />
+          </div>
         </div>
       </div>
       <div className="flex items-center  px-8 xl:px-40 py-8 xl:pt-12 xl:pb-20 text-sm lg:text-lg text-lightGrey font-bold max-w-[1100px] lg:mb-20">
@@ -84,95 +62,97 @@ export default function Home() {
           <p className="opacity-70">Wilayas covered nationally</p>
         </div>
       </div>
-      <div className="grid grid-cols-3 lg:gap-8 lg:mb-20 text-[10px] lg:text-2xl text-center font-medium  w-full px-8 xl:px-40">
-        <div className=" flex flex-col items-center border rounded-lg px-3 py-3 me-4 lg:px-15 lg:py-10">
-          <svg
-            className=" m-2 p-1 w-10 lg:w-20 lg:m-4 "
-            viewBox="0 0 25 25"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12.5933 22.3533C18.0978 22.3533 22.56 17.891 22.56 12.3866C22.56 6.88215 18.0978 2.41992 12.5933 2.41992C7.08889 2.41992 2.62666 6.88215 2.62666 12.3866C2.62666 17.891 7.08889 22.3533 12.5933 22.3533Z"
-              stroke="#0D1727"
-              stroke-width="1.99333"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M12.5933 6.40674V12.3867L16.58 14.3801"
-              stroke="#0D1727"
-              stroke-width="1.99333"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
+      <div className="w-full flex justify-center lg:block">
+        <div className="grid grid-rows-1  lg:grid-cols-3 max-w-[350px] lg:max-w-none gap-4 lg:gap-8 lg:mb-20 text-2 justify-center lg:text-2xl text-center font-medium  w-full px-8 xl:px-40">
+          <div className=" flex flex-col items-center border rounded-lg px-3 py-3 me-4 lg:px-15 lg:py-10">
+            <svg
+              className=" m-2 p-1 w-10 lg:w-20 lg:m-4 "
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.5933 22.3533C18.0978 22.3533 22.56 17.891 22.56 12.3866C22.56 6.88215 18.0978 2.41992 12.5933 2.41992C7.08889 2.41992 2.62666 6.88215 2.62666 12.3866C2.62666 17.891 7.08889 22.3533 12.5933 22.3533Z"
+                stroke="#0D1727"
+                stroke-width="1.99333"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12.5933 6.40674V12.3867L16.58 14.3801"
+                stroke="#0D1727"
+                stroke-width="1.99333"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
 
-          <h3>Modern Technologies, Real-time Insights</h3>
-        </div>
-        <div className=" flex flex-col items-center border rounded-lg px-3 py-3 me-4 lg:px-15 lg:py-10">
-          <svg
-            className=" m-2 p-1 w-10 lg:w-20 lg:m-4 "
-            viewBox="0 0 24 25"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M18.9833 5.41016L5.02997 19.3635"
-              stroke="black"
-              stroke-width="1.99333"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M6.52499 9.39666C7.9011 9.39666 9.01666 8.28111 9.01666 6.905C9.01666 5.52889 7.9011 4.41333 6.52499 4.41333C5.14888 4.41333 4.03333 5.52889 4.03333 6.905C4.03333 8.28111 5.14888 9.39666 6.52499 9.39666Z"
-              stroke="black"
-              stroke-width="1.99333"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M17.4883 20.36C18.8644 20.36 19.98 19.2445 19.98 17.8684C19.98 16.4923 18.8644 15.3767 17.4883 15.3767C16.1122 15.3767 14.9967 16.4923 14.9967 17.8684C14.9967 19.2445 16.1122 20.36 17.4883 20.36Z"
-              stroke="black"
-              stroke-width="1.99333"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
+            <h3>Modern Technologies, Real-time Insights</h3>
+          </div>
+          <div className=" flex flex-col items-center border rounded-lg px-3 py-3 me-4 lg:px-15 lg:py-10">
+            <svg
+              className=" m-2 p-1 w-10 lg:w-20 lg:m-4 "
+              viewBox="0 0 24 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18.9833 5.41016L5.02997 19.3635"
+                stroke="black"
+                stroke-width="1.99333"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M6.52499 9.39666C7.9011 9.39666 9.01666 8.28111 9.01666 6.905C9.01666 5.52889 7.9011 4.41333 6.52499 4.41333C5.14888 4.41333 4.03333 5.52889 4.03333 6.905C4.03333 8.28111 5.14888 9.39666 6.52499 9.39666Z"
+                stroke="black"
+                stroke-width="1.99333"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M17.4883 20.36C18.8644 20.36 19.98 19.2445 19.98 17.8684C19.98 16.4923 18.8644 15.3767 17.4883 15.3767C16.1122 15.3767 14.9967 16.4923 14.9967 17.8684C14.9967 19.2445 16.1122 20.36 17.4883 20.36Z"
+                stroke="black"
+                stroke-width="1.99333"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
 
-          <h3>Cost-Effective Excellence</h3>
-        </div>
-        <div className=" flex flex-col items-center border rounded-lg px-3 py-3  lg:px-15 lg:py-10">
-          <svg
-            className=" m-2 p-1 w-10 lg:w-20 lg:m-4 "
-            viewBox="0 0 25 25"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12.42 8.39992C17.374 8.39992 21.39 7.06125 21.39 5.40992C21.39 3.75859 17.374 2.41992 12.42 2.41992C7.46597 2.41992 3.44997 3.75859 3.44997 5.40992C3.44997 7.06125 7.46597 8.39992 12.42 8.39992Z"
-              stroke="black"
-              stroke-width="1.53333"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M21.39 12.3867C21.39 14.0412 17.4033 15.3767 12.42 15.3767C7.43663 15.3767 3.44997 14.0412 3.44997 12.3867"
-              stroke="black"
-              stroke-width="1.53333"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M3.44997 5.40991V19.3632C3.44997 21.0177 7.43663 22.3532 12.42 22.3532C17.4033 22.3532 21.39 21.0177 21.39 19.3632V5.40991"
-              stroke="black"
-              stroke-width="1.53333"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
+            <h3>Cost-Effective Excellence</h3>
+          </div>
+          <div className=" flex flex-col items-center border rounded-lg px-3 py-3 me-4 lg:px-15 lg:py-10">
+            <svg
+              className=" m-2 p-1 w-10 lg:w-20 lg:m-4 "
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.42 8.39992C17.374 8.39992 21.39 7.06125 21.39 5.40992C21.39 3.75859 17.374 2.41992 12.42 2.41992C7.46597 2.41992 3.44997 3.75859 3.44997 5.40992C3.44997 7.06125 7.46597 8.39992 12.42 8.39992Z"
+                stroke="black"
+                stroke-width="1.53333"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M21.39 12.3867C21.39 14.0412 17.4033 15.3767 12.42 15.3767C7.43663 15.3767 3.44997 14.0412 3.44997 12.3867"
+                stroke="black"
+                stroke-width="1.53333"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M3.44997 5.40991V19.3632C3.44997 21.0177 7.43663 22.3532 12.42 22.3532C17.4033 22.3532 21.39 21.0177 21.39 19.3632V5.40991"
+                stroke="black"
+                stroke-width="1.53333"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
 
-          <h3>Data You Can Trust</h3>
+            <h3>Data You Can Trust</h3>
+          </div>
         </div>
       </div>
       <div className="lg:flex lg:py-10 lg:mb-48 relative ">
@@ -181,7 +161,7 @@ export default function Home() {
           className="absolute -z-10 top-[45%] xl:top-0"
         ></Image>
 
-        <div className="px-8 xl:px-40 py-8 text-darkBlue lg:max-w-[60vw] z-10">
+        <div className="px-8 xl:px-40 py-8 text-darkBlue  sticky bottom-0 lg:max-w-[60vw] z-10">
           <h1 className="text-3xl lg:text-5xl mb-4  z-10">Audience Panel</h1>
           <p className="font-medium lg:text-xl pe-20 text-lightGrey">
             Easily reach consumer and B2B survey respondents in 23+ Wialayas.
@@ -201,19 +181,20 @@ export default function Home() {
         </div>
       </div>
       <div className="xl:grid grid-cols-[49%_1fr]  relative">
-        <div className="w-full h-full absolute -z-10 overflow-hidden  -scale-y-100 ">
+        <Background></Background>
+        {/* <div className="w-full h-full absolute -z-10 overflow-hidden  -scale-y-100 ">
           <div className="w-full h-full scale-[180%] relative blur-[50px]">
             <div className="bg-lightBlue -z-30 w-[1500px] h-60 -left-10 top-[80%] rotate-[10deg] absolute"></div>
             <div className="bg-lightPurple -z-20 w-[250px] h-[250px] rounded-full left-[70%] top-[50%] absolute"></div>
             <div className="bg-lighOrange w-[1500px] h-[30%] -left-10 rotate-[10deg] top-40 -z-40 absolute"></div>
             <div className="bg-darkOrange w-full h-full -z-50 absolute"></div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
         <div className="absolute bottom-0 left-32">
           <Image
             className="xl:block hidden"
             src={Iphone}
-            style={{ maxWidth: "40vw", margin: "0 auto" }}
+            style={{ maxWidth: "35vw", margin: "0 auto" }}
             quality={100}
           ></Image>
         </div>
@@ -234,14 +215,14 @@ export default function Home() {
               gather responses by interacting with people at public places,
               sparking conversations, and sharing insights.
             </p>
-            <button className="text-darkBlue font-medium mb-3 xl:text-lg bg-backgroundWhite px-3 py-2 rounded-lg">
+            <button className="text-darkBlue font-medium mb-3 xl:text-lg bg-backgroundWhite px-3 py-2 rounded-lg drop-shadow-md hover:drop-shadow-lg active:drop-shadow-none active:shadow-inner transition-all ">
               Become a collector now{" "}
             </button>
           </div>
           <Image
             className="xl:hidden"
             src={Iphone}
-            style={{ maxWidth: "90%", margin: "0 auto" }}
+            style={{ maxWidth: "100%", margin: "0 auto" }}
             quality={100}
           ></Image>
         </div>

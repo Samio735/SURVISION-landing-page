@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="  bg-backgroundWhite -z-20">
-        <div className="fixed w-screen z-30 py-4 px-8 xl:px-40 flex justify-between bg-darkOrange ">
+        <div className="sticky top-0 w-screen z-30 py-4 px-8 xl:px-40 flex justify-between bg-darkOrange ">
           <span>
             <svg
               width="155"
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
           </span>
           <span>
             {" "}
-            <button className="bg-backgroundWhite text-darkBlue  p-2 rounded-lg">
+            <button className="bg-backgroundWhite text-darkBlue drop-shadow-md hover:drop-shadow-lg active:drop-shadow-none active:shadow-inner transition-all  p-2 rounded-lg">
               {" "}
               Order Survey{" "}
             </button>{" "}
