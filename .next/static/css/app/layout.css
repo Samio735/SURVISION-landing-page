@@ -933,6 +933,9 @@ video {
 .max-h-\[48px\] {
   max-height: 48px;
 }
+.max-h-\[80vh\] {
+  max-height: 80vh;
+}
 .min-h-\[100px\] {
   min-height: 100px;
 }
@@ -1029,6 +1032,30 @@ video {
 }
 .w-screen {
   width: 100vw;
+}
+.w-48 {
+  width: 12rem;
+}
+.w-\[80vw\] {
+  width: 80vw;
+}
+.w-\[60vw\] {
+  width: 60vw;
+}
+.w-\[40vw\] {
+  width: 40vw;
+}
+.w-\[20vw\] {
+  width: 20vw;
+}
+.w-\[30vw\] {
+  width: 30vw;
+}
+.w-\[25vw\] {
+  width: 25vw;
+}
+.w-\[24vw\] {
+  width: 24vw;
 }
 .min-w-\[100vw\] {
   min-width: 100vw;
@@ -1161,6 +1188,11 @@ video {
   --tw-scale-y: 180%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+.scale-50 {
+  --tw-scale-x: .5;
+  --tw-scale-y: .5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .-scale-y-100 {
   --tw-scale-y: -1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1230,6 +1262,9 @@ video {
 }
 .flex-row {
   flex-direction: row;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 .flex-col {
   flex-direction: column;
@@ -4972,6 +5007,14 @@ video {
     margin-bottom: 1.5rem;
   }
 
+  .lg\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .lg\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -5010,6 +5053,22 @@ video {
 
   .lg\:w-\[430px\] {
     width: 430px;
+  }
+
+  .lg\:w-\[50vw\] {
+    width: 50vw;
+  }
+
+  .lg\:w-\[30vw\] {
+    width: 30vw;
+  }
+
+  .lg\:w-\[20vw\] {
+    width: 20vw;
+  }
+
+  .lg\:w-\[24vw\] {
+    width: 24vw;
   }
 
   .lg\:min-w-\[40\%\] {
@@ -5056,6 +5115,10 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .lg\:justify-end {
+    justify-content: flex-end;
+  }
+
   .lg\:gap-8 {
     gap: 2rem;
   }
@@ -5068,6 +5131,16 @@ video {
   .lg\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .lg\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 
   .lg\:text-2xl {
@@ -5103,6 +5176,11 @@ video {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .lg\:leading-\[106px\] {
