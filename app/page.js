@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex items-center  px-8 xl:px-40 py-8 xl:pt-12 xl:pb-20 text-sm lg:text-lg text-lightGrey font-bold max-w-[1100px] lg:mb-20">
+      <div className="flex items-center  px-8 xl:px-40 py-8 xl:pt-12 xl:pb-0 text-sm lg:text-lg text-lightGrey font-bold max-w-[1100px] lg:mb-20">
         <div className="pe-3">
           <h3 className="text-darkBlue text-lg lg:text-3xl mb-2 ">230+</h3>
           <p className="opacity-70">Surveys secussfuly completed</p>
@@ -156,7 +156,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="lg:flex lg:py-10 lg:mb-48 relative ">
+      <div className="lg:flex lg:py-10 lg:mb-32 relative ">
         <Image
           src={mapPhoto}
           className="absolute -z-10 top-[45%] xl:top-0"
