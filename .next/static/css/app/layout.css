@@ -2806,8 +2806,16 @@ video {
 .outline-0 {
   outline-width: 0px;
 }
+.blur-\[15px\] {
+  --tw-blur: blur(15px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
 .blur-\[50px\] {
   --tw-blur: blur(50px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.blur-\[35px\] {
+  --tw-blur: blur(35px);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 .drop-shadow-md {
@@ -5010,12 +5018,12 @@ video {
     margin-bottom: 5rem;
   }
 
-  .lg\:mb-4 {
-    margin-bottom: 1rem;
+  .lg\:mb-32 {
+    margin-bottom: 8rem;
   }
 
-  .lg\:mb-48 {
-    margin-bottom: 12rem;
+  .lg\:mb-4 {
+    margin-bottom: 1rem;
   }
 
   .lg\:mb-6 {
@@ -5024,10 +5032,6 @@ video {
 
   .lg\:mb-8 {
     margin-bottom: 2rem;
-  }
-
-  .lg\:mb-32 {
-    margin-bottom: 8rem;
   }
 
   .lg\:block {
@@ -5247,8 +5251,8 @@ video {
     padding-bottom: 4rem;
   }
 
-  .xl\:pb-20 {
-    padding-bottom: 5rem;
+  .xl\:pb-0 {
+    padding-bottom: 0px;
   }
 
   .xl\:pe-40 {
@@ -5257,14 +5261,6 @@ video {
 
   .xl\:pt-12 {
     padding-top: 3rem;
-  }
-
-  .xl\:pb-10 {
-    padding-bottom: 2.5rem;
-  }
-
-  .xl\:pb-0 {
-    padding-bottom: 0px;
   }
 
   .xl\:text-4xl {
