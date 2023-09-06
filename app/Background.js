@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Background() {
   return (
     <div className="w-full h-full absolute -z-10 overflow-hidden   ">
-      <div className="w-full h-full scale-[180%] relative blur-[50px]">
+      <div className="w-full h-full scale-[180%] relative blur-[0px]">
         <motion.div
           animate={{
             top: ["80%", "50%", "80%", "70%", "80%", "50%", "80%"],
