@@ -680,6 +680,15 @@ video {
 .top-\[80\%\] {
   top: 80%;
 }
+.-top-10 {
+  top: -2.5rem;
+}
+.-top-20 {
+  top: -5rem;
+}
+.top-24 {
+  top: 6rem;
+}
 .-z-10 {
   z-index: -10;
 }
@@ -824,6 +833,15 @@ video {
 .mt-px {
   margin-top: 1px;
 }
+.mt-20 {
+  margin-top: 5rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
+}
+.mt-12 {
+  margin-top: 3rem;
+}
 .box-border {
   box-sizing: border-box;
 }
@@ -923,6 +941,9 @@ video {
 }
 .h-screen {
   height: 100vh;
+}
+.h-48 {
+  height: 12rem;
 }
 .max-h-96 {
   max-height: 24rem;
@@ -1855,6 +1876,18 @@ video {
 .bg-yellow-500\/20 {
   background-color: rgb(255 235 59 / 0.2);
 }
+.bg-\[rgb\(255\2c 255\2c 255\2c 0\.5\)\] {
+  background-color: rgb(255,255,255,0.5);
+}
+.bg-\[rgb\(255\2c 255\2c 255\2c 0\.1\)\] {
+  background-color: rgb(255,255,255,0.1);
+}
+.bg-\[rgba\(251\2c 116\2c 79\2c 0\.98\)\] {
+  background-color: rgba(251,116,79,0.98);
+}
+.bg-\[rgba\(251\2c 116\2c 79\2c 0\.1\)\] {
+  background-color: rgba(251,116,79,0.1);
+}
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6;
 }
@@ -2196,6 +2229,9 @@ video {
 }
 .pt-px {
   padding-top: 1px;
+}
+.pt-12 {
+  padding-top: 3rem;
 }
 .text-left {
   text-align: left;
@@ -2806,6 +2842,11 @@ video {
 .outline-0 {
   outline-width: 0px;
 }
+.ring {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
 .blur-\[15px\] {
   --tw-blur: blur(15px);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -2832,6 +2873,21 @@ video {
 }
 .backdrop-blur-sm {
   --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+.backdrop-blur-\[100px\] {
+  --tw-backdrop-blur: blur(100px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+.backdrop-blur-xl {
+  --tw-backdrop-blur: blur(24px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+.backdrop-blur-lg {
+  --tw-backdrop-blur: blur(16px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
@@ -5224,6 +5280,14 @@ video {
     top: 0px;
   }
 
+  .xl\:mt-32 {
+    margin-top: 8rem;
+  }
+
+  .xl\:mt-24 {
+    margin-top: 6rem;
+  }
+
   .xl\:block {
     display: block;
   }
@@ -5261,6 +5325,14 @@ video {
 
   .xl\:pt-12 {
     padding-top: 3rem;
+  }
+
+  .xl\:pt-24 {
+    padding-top: 6rem;
+  }
+
+  .xl\:pt-44 {
+    padding-top: 11rem;
   }
 
   .xl\:text-4xl {

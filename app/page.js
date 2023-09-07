@@ -10,31 +10,33 @@ import Footer from "./Footer";
 export default function Home() {
   return (
     <main className="font-bold relative -mt-2 w-screen overflow-hidden">
-      <div className="relative">
+      <div className="relative  ">
         <Background></Background>
-        <div className=" hidden xl:block xl:absolute -right-12 top-4">
-          <Image
-            src={MainPhone}
-            alt="Picture of the app screen"
-            style={{ maxWidth: "60%" }}
-            quality={100}
-          />
-        </div>
-        <div className="px-8 xl:px-40 py-16 flex">
-          <div
-            className=" w-full text-backgroundWhite
+        <div className="pt-12 xl:pt-24">
+          <div className="  hidden xl:block xl:absolute -right-12 top-24">
+            <Image
+              src={MainPhone}
+              alt="Picture of the app screen"
+              style={{ maxWidth: "60%" }}
+              quality={100}
+            />
+          </div>
+          <div className="px-8 xl:px-40 py-16 flex">
+            <div
+              className=" w-full text-backgroundWhite
        "
-          >
-            <h3 className="font-thin text-lg lg:text-xl mb-4 max-w-2xl">
-              Explore. Understand. Innovate.
-            </h3>
-            <h1 className="font-bold text-5xl lg:text-6xl mb-4 max-w-2xl lg:leading-[106px]">
-              Unveiling the Future of Market Research
-            </h1>
-            <p className="opacity-90 max-w-2xl  lg:text-2xl font-medium">
-              Revolutionizing FMCG market research through cutting-edge
-              technology and community-driven insights.
-            </p>
+            >
+              <h3 className="font-thin text-lg lg:text-xl mb-4 max-w-2xl">
+                Explore. Understand. Innovate.
+              </h3>
+              <h1 className="font-bold text-5xl lg:text-6xl mb-4 max-w-2xl lg:leading-[106px]">
+                Unveiling the Future of Market Research
+              </h1>
+              <p className="opacity-90 max-w-2xl  lg:text-2xl font-medium">
+                Revolutionizing FMCG market research through cutting-edge
+                technology and community-driven insights.
+              </p>
+            </div>
           </div>
           <div className=" hidden xl:block opacity-0 xl:absolute right-36 top-4">
             <Image

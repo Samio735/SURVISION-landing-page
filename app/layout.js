@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="  bg-backgroundWhite -z-20 w-screen ">
-        <div className="sticky top-0 w-screen z-30 py-4 px-8 xl:px-40 flex justify-between bg-darkOrange ">
+        <div className="fixed top-0 w-screen z-30 py-4 px-8 xl:px-40 flex justify-between bg-darkOrange ">
           <span>
             <Link href="/">
               <svg
