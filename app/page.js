@@ -27,14 +27,14 @@ export default function Home() {
        "
             >
               <h3 className="font-thin text-lg lg:text-xl mb-4 max-w-2xl">
-                Explore. Understand. Innovate.
+                Survision  Clear Data, Clear Vision.
               </h3>
               <h1 className="font-bold text-5xl lg:text-6xl mb-4 max-w-2xl lg:leading-[106px]">
                 Unveiling the Future of Market Research
               </h1>
               <p className="opacity-90 max-w-2xl  lg:text-2xl font-medium">
                 Revolutionizing FMCG market research through cutting-edge
-                technology and community-driven insights.
+                technology and community-driven insights. hello
               </p>
             </div>
           </div>
