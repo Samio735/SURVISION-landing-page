@@ -30,11 +30,11 @@ export default function Home() {
                 Survision  Clear Data, Clear Vision.
               </h3>
               <h1 className="font-bold text-5xl lg:text-6xl mb-4 max-w-2xl lg:leading-[106px]">
-                Unveiling the Future of Market Research
+                Unlocking Certainty with Survision: Elevate Your Market Research
               </h1>
               <p className="opacity-90 max-w-2xl  lg:text-2xl font-medium">
-                Revolutionizing FMCG market research through cutting-edge
-                technology and community-driven insights. hello
+                At Survision, we are changing the game in market research.
+                We understand the challenges businesses face when gathering valuable insights, and we have the solution.
               </p>
             </div>
           </div>
@@ -90,7 +90,7 @@ export default function Home() {
               />
             </svg>
 
-            <h3>Modern Technologies, Real-time Insights</h3>
+            <h3>Make data-driven decisions faster with real-time data collection and analysis.</h3>
           </div>
           <div className=" flex flex-col items-center border rounded-lg px-3 py-3 me-4 lg:px-15 lg:py-10">
             <svg
@@ -122,7 +122,7 @@ export default function Home() {
               />
             </svg>
 
-            <h3>Cost-Effective Excellence</h3>
+            <h3>Our Survisionized approach eliminates the logistical hassles and accelerates the research process.</h3>
           </div>
           <div className=" flex flex-col items-center border rounded-lg px-3 py-3 me-4 lg:px-15 lg:py-10">
             <svg
@@ -154,7 +154,7 @@ export default function Home() {
               />
             </svg>
 
-            <h3>Data You Can Trust</h3>
+            <h3>Our advanced fraud detection mechanisms ensure data authenticity.</h3>
           </div>
         </div>
       </div>
@@ -167,10 +167,13 @@ export default function Home() {
         <div className="px-8 xl:px-40 py-8 text-darkBlue  sticky bottom-0 lg:max-w-[60vw] z-10">
           <h1 className="text-3xl lg:text-5xl mb-4  z-10">Audience Panel</h1>
           <p className="font-medium lg:text-xl pe-20 text-lightGrey">
-            Easily reach consumer and B2B survey respondents in 23+ Wialayas.
+            Define your audience precisely and gather insights that matter most to your business.
             <br></br>
             <br></br>
-            Collect responses using personalized questions from your liking.
+            Our collectors are rigorously trained and prepared to meet your unique research needs.
+            <br></br>
+            <br></br>
+            We provide you with survey statistics, actionable insights, strategic recommendations, and raw data for further analysis and exploration.
           </p>
         </div>
         <div>
