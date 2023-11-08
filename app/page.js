@@ -27,10 +27,10 @@ export default function Home() {
        "
             >
               <h3 className="font-thin text-lg lg:text-xl mb-4 max-w-2xl">
-                Survision  Clear Data, Clear Vision.
+                Unlocking Certainty with Survision: Elevate Your Market Research
               </h3>
               <h1 className="font-bold text-5xl lg:text-6xl mb-4 max-w-2xl lg:leading-[106px]">
-                Unlocking Certainty with Survision: Elevate Your Market Research
+                Survision  Clear Data, Clear Vision.
               </h1>
               <p className="opacity-90 max-w-2xl  lg:text-2xl font-medium">
                 At Survision, we are changing the game in market research.
@@ -90,7 +90,7 @@ export default function Home() {
               />
             </svg>
 
-            <h3>Make data-driven decisions faster with real-time data collection and analysis.</h3>
+            <h3>Real-Time Data</h3>
           </div>
           <div className=" flex flex-col items-center border rounded-lg px-3 py-3 me-4 lg:px-15 lg:py-10">
             <svg
@@ -122,7 +122,7 @@ export default function Home() {
               />
             </svg>
 
-            <h3>Our Survisionized approach eliminates the logistical hassles and accelerates the research process.</h3>
+            <h3>Efficiency</h3>
           </div>
           <div className=" flex flex-col items-center border rounded-lg px-3 py-3 me-4 lg:px-15 lg:py-10">
             <svg
@@ -154,7 +154,7 @@ export default function Home() {
               />
             </svg>
 
-            <h3>Our advanced fraud detection mechanisms ensure data authenticity.</h3>
+            <h3>Data you can trust</h3>
           </div>
         </div>
       </div>
@@ -173,7 +173,7 @@ export default function Home() {
             Our collectors are rigorously trained and prepared to meet your unique research needs.
             <br></br>
             <br></br>
-            We provide you with survey statistics, actionable insights, strategic recommendations, and raw data for further analysis and exploration.
+           
           </p>
         </div>
         <div>
