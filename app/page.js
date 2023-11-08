@@ -31,6 +31,7 @@ export default function Home() {
               </h3>
               <h1 className="font-bold text-5xl lg:text-6xl mb-4 max-w-2xl lg:leading-[106px]">
                 Survision
+                <br></br>
                 Clear Data, Clear Vision.
               </h1>
               <p className="opacity-90 max-w-2xl  lg:text-2xl font-medium">
