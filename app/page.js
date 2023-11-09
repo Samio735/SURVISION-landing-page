@@ -64,7 +64,7 @@ export default function Home() {
 
         <div className="p-3">
           <h3 className="text-darkBlue text-lg lg:text-3xl mb-2 ">24+</h3>
-          <p className="opacity-70">Wilayas covered nationally</p>
+          <p className="opacity-70">Wilayas covered</p>
         </div>
       </div>
       <div className="w-full flex justify-center lg:block">
