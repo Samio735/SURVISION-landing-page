@@ -30,8 +30,8 @@ function Footer() {
           <h2>Have a question ?</h2>
           <div className="opacity-70 mb-2 font-medium">
             <p>You can reach us here :</p>
-            <p>survisiondz@gmail.com</p>
-            <p>07822777055</p>
+            <p>contact@survision.io</p>
+            <p>+213 (0)541868191</p>
           </div>
         </div>
 

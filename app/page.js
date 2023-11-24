@@ -27,14 +27,16 @@ export default function Home() {
        "
             >
               <h3 className="font-thin text-lg lg:text-xl mb-4 max-w-2xl">
-                Explore. Understand. Innovate.
+                Unlocking Certainty with Survision: Elevate Your Market Research
               </h3>
               <h1 className="font-bold text-5xl lg:text-6xl mb-4 max-w-2xl lg:leading-[106px]">
-                Unveiling the Future of Market Research
+                Survision
+                <br></br>
+                Clear Data Clear Vision
               </h1>
               <p className="opacity-90 max-w-2xl  lg:text-2xl font-medium">
-                Revolutionizing FMCG market research through cutting-edge
-                technology and community-driven insights.
+                At Survision, we are changing the game in market research.
+                We understand the challenges businesses face when gathering valuable insights, and we have the solution.
               </p>
             </div>
           </div>
@@ -62,7 +64,7 @@ export default function Home() {
 
         <div className="p-3">
           <h3 className="text-darkBlue text-lg lg:text-3xl mb-2 ">24+</h3>
-          <p className="opacity-70">Wilayas covered nationally</p>
+          <p className="opacity-70">Wilayas covered</p>
         </div>
       </div>
       <div className="w-full flex justify-center lg:block">
@@ -90,7 +92,7 @@ export default function Home() {
               />
             </svg>
 
-            <h3>Modern Technologies, Real-time Insights</h3>
+            <h3>Real-Time Data</h3>
           </div>
           <div className=" flex flex-col items-center border rounded-lg px-3 py-3 me-4 lg:px-15 lg:py-10">
             <svg
@@ -122,7 +124,7 @@ export default function Home() {
               />
             </svg>
 
-            <h3>Cost-Effective Excellence</h3>
+            <h3>Efficiency</h3>
           </div>
           <div className=" flex flex-col items-center border rounded-lg px-3 py-3 me-4 lg:px-15 lg:py-10">
             <svg
@@ -154,7 +156,7 @@ export default function Home() {
               />
             </svg>
 
-            <h3>Data You Can Trust</h3>
+            <h3>Data you can trust</h3>
           </div>
         </div>
       </div>
@@ -167,10 +169,13 @@ export default function Home() {
         <div className="px-8 xl:px-40 py-8 text-darkBlue  sticky bottom-0 lg:max-w-[60vw] z-10">
           <h1 className="text-3xl lg:text-5xl mb-4  z-10">Audience Panel</h1>
           <p className="font-medium lg:text-xl pe-20 text-lightGrey">
-            Easily reach consumer and B2B survey respondents in 23+ Wialayas.
+            Define your audience precisely and gather insights that matter most to your business.
             <br></br>
             <br></br>
-            Collect responses using personalized questions from your liking.
+            Our collectors are rigorously trained and prepared to meet your unique research needs.
+            <br></br>
+            <br></br>
+           
           </p>
         </div>
         <div>
