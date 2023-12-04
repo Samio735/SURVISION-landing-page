@@ -19,7 +19,7 @@ function page() {
           <p className="mb-2 lg:mb-4">
             {" "}
             0541868191 <br></br> survision@gmail.com <br></br> N32 Les Pain
-            Marytims, Alger{" "}
+            Marytims, El Mouhamadia, Alger{" "}
           </p>
         </div>
       </div>
