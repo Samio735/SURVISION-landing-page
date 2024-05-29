@@ -17,7 +17,7 @@ export default function Home() {
             <Image
               src={MainPhone}
               alt="Picture of the app screen"
-              style={{ maxWidth: "60%" }}
+              style={{ width: "20vw" }}
               quality={100}
             />
           </div>
