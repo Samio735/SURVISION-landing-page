@@ -13,7 +13,7 @@ export default function Home() {
       <div className="relative  ">
         <Background></Background>
         <div className="pt-12 xl:pt-24">
-          <div className="  hidden xl:block 2xl:absolute -right-12 top-24">
+          <div className="  hidden xl:block 2xl:absolute right-12 top-24">
             <Image
               src={MainPhone}
               alt="Picture of the app screen"
