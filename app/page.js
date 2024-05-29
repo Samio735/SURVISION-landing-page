@@ -6,7 +6,7 @@ import mapPhoto from "../public/algeriaMap.png";
 import Link from "next/link";
 import Background from "./Background";
 import Footer from "./Footer";
-// pardon ma vie
+
 export default function Home() {
   return (
     <main className="font-bold relative -mt-2 w-screen overflow-hidden">
