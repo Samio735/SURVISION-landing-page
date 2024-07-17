@@ -10,7 +10,7 @@ function page() {
       <div className="lg:grid grid-cols-2 lg:px-40">
         <div className="text-backgroundWhite px-8 py-16 lg:py-32 lg:text-lg  ">
           <h1 className="text-xl lg:text-4xl mb-4 lg:mb-8">
-            Join the SURVISION Collector Team
+            Join the SURVISION Collectors Team
           </h1>
           <p className="mb-2 lg:mb-4">
             1. Register: Complete a simple application form to get started.
