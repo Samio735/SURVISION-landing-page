@@ -22,7 +22,7 @@ function page() {
           <p className="mb-4 lg:mb-8">
             3. Start Collecting: Use the Survision app to gather data from surveys in your area.
           </p>
-          <button className="flex bg-backgroundWhite text-darkBlue items-center gap-2 py-2 px-4 rounded-lg ">
+          <button className="flex bg-backgroundWhite text-darkBlue items-center gap-2 py-2 px-4 rounded-lg " onClick={() => window.location.href='https://docs.google.com/forms/d/1two7Wc0Lm6pRdU_QQO7BWDKVVXb-wvPGxPfHehmKQa0/prefill'}>
             <svg
               className="w-8"
               viewBox="0 0 43 44"
@@ -38,7 +38,7 @@ function page() {
               />
             </svg>
 
-            <p>Download the app</p>
+            <p>Application Form</p>
           </button>
         </div>
         <div className="w-full mb-8 flex justify-center lg:justify-end">
