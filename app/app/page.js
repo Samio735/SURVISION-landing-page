@@ -4,6 +4,10 @@ import Image from "next/image";
 import Footer from "../Footer";
 
 function page() {
+  const MyButtonComponent = () => {
+  const handleClick = () => {
+    window.location.href = 'https://docs.google.com/forms/d/1two7Wc0Lm6pRdU_QQO7BWDKVVXb-wvPGxPfHehmKQa0/prefill';
+  };
   return (
     <div className="font-bold">
       <Background></Background>
@@ -22,7 +26,7 @@ function page() {
           <p className="mb-4 lg:mb-8">
             3. Start Collecting: Use the Survision app to gather data from surveys in your area.
           </p>
-          <button className="flex bg-backgroundWhite text-darkBlue items-center gap-2 py-2 px-4 rounded-lg " onclick="window.location.href='https://docs.google.com/forms/d/1two7Wc0Lm6pRdU_QQO7BWDKVVXb-wvPGxPfHehmKQa0/prefill';">
+          <button className="flex bg-backgroundWhite text-darkBlue items-center gap-2 py-2 px-4 rounded-lg " onClick={handleClick}>
             
             <p>Application Form</p>
           </button>
