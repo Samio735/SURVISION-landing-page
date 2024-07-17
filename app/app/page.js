@@ -13,14 +13,14 @@ function page() {
             Join the SURVISION Collector Community
           </h1>
           <p className="mb-2 lg:mb-4">
-            Step 1: Download the SURVISION App on your device.
+            1. Register: Complete a simple application form to get started.
           </p>
           <p className="mb-2 lg:mb-4">
             {" "}
-            Step 2: Create an account and get responses
+            2. Training: Participate in online training to learn how to use our app and collect high-quality data.
           </p>
           <p className="mb-4 lg:mb-8">
-            Step 3: Gather enough credit and withdraw your money
+            3. Start Collecting: Use the Survision app to gather data from surveys in your area.
           </p>
           <button className="flex bg-backgroundWhite text-darkBlue items-center gap-2 py-2 px-4 rounded-lg ">
             <svg
