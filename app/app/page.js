@@ -3,11 +3,13 @@ import dashboard from "../../public/Dashboard-screen.png";
 import Image from "next/image";
 import Footer from "../Footer";
 
-function page() {
-  const MyButtonComponent = () => {
+const MyButtonComponent = () => {
   const handleClick = () => {
     window.location.href = 'https://docs.google.com/forms/d/1two7Wc0Lm6pRdU_QQO7BWDKVVXb-wvPGxPfHehmKQa0/prefill';
   };
+
+function page() {
+  
   return (
     <div className="font-bold">
       <Background></Background>
