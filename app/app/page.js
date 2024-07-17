@@ -23,21 +23,7 @@ function page() {
             3. Start Collecting: Use the Survision app to gather data from surveys in your area.
           </p>
           <button className="flex bg-backgroundWhite text-darkBlue items-center gap-2 py-2 px-4 rounded-lg " onClick={() => window.location.href='https://docs.google.com/forms/d/1two7Wc0Lm6pRdU_QQO7BWDKVVXb-wvPGxPfHehmKQa0/prefill'}>
-            <svg
-              className="w-8"
-              viewBox="0 0 43 44"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3 28.6757V36.8919C3 39.1514 4.84865 41 7.10811 41H35.8649C36.9544 41 37.9993 40.5672 38.7697 39.7968C39.5402 39.0263 39.973 37.9814 39.973 36.8919V28.6757M31.7568 16.3514L21.4865 26.6216L11.2162 16.3514M21.4865 24.1568V3"
-                stroke="#0D1727"
-                stroke-width="4.10811"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-
+            
             <p>Application Form</p>
           </button>
         </div>
