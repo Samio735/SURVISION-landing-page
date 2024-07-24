@@ -3,10 +3,7 @@ import dashboard from "../../public/Dashboard-screen.png";
 import Image from "next/image";
 import Footer from "../Footer";
 
-const MyButtonComponent = () => {
-  const handleClick = () => {
-    window.location.href = 'https://docs.google.com/forms/d/1two7Wc0Lm6pRdU_QQO7BWDKVVXb-wvPGxPfHehmKQa0/prefill';
-  };
+
 
 function page() {
   
@@ -28,10 +25,9 @@ function page() {
           <p className="mb-4 lg:mb-8">
             3. Start Collecting: Use the Survision app to gather data from surveys in your area.
           </p>
-          <button className="flex bg-backgroundWhite text-darkBlue items-center gap-2 py-2 px-4 rounded-lg " onClick="handleClick()">
-            
-            <p>Application Form</p>
-          </button>
+          <a href="https://docs.google.com/forms/d/1two7Wc0Lm6pRdU_QQO7BWDKVVXb-wvPGxPfHehmKQa0/prefill" target="_blank" rel="noopener noreferrer" className="flex bg-backgroundWhite text-darkBlue items-center gap-2 py-2 px-4 rounded-lg">
+             <p>Application Form</p>
+          </a>
         </div>
         <div className="w-full mb-8 flex justify-center lg:justify-end">
           <Image
