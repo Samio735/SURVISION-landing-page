@@ -13,8 +13,9 @@ function page() {
             Order your Survey Now !
           </h1>
           <p className="mb-2 lg:mb-4">
-            To luanch your survey, all you need to do is to cantact us in the
-            following coordenates{" "}
+            To get started, simply reach out to us using the details below:
+
+{" "}
           </p>
           <p className="mb-2 lg:mb-4">
             {" "}
