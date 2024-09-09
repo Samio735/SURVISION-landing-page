@@ -51,7 +51,7 @@ function Footer() {
               stroke-linejoin="round"
             />
           </svg>
-          <a href="https://www.instagram.com/yourprofile" target="_blank">
+          <a href="https://www.instagram.com/survision.io" target="_blank">
   <svg
     width="29"
     height="28"
@@ -77,7 +77,8 @@ function Footer() {
     </defs>
   </svg>
 </a>
-          <svg
+         <a href="https://www.linkedin.com/company/survision-data/" target="_blank">
+            <svg
             width="28"
             height="28"
             viewBox="0 0 28 28"
@@ -101,6 +102,7 @@ function Footer() {
               </clipPath>
             </defs>
           </svg>
+                    </a>
         </div>
 
         <p className="opacity-70 font-medium mb-8">
